@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>3d Shape calc</title>
+</head>
+<body>
+    <nav>
+    </nav>
+    <span class="material-icons i1" onclick="window.location.reload();">home</span>
+    <span class="material-icons i2" onclick="window.print()">print</span>
+
+    <input type="text" placeholder="height" class="values" id="height">
+    <input type="text" placeholder="radius" class="values" id="radius">
+    <input type="text" placeholder="edge length" class="values"id="edge-length">
+    <input type="text" placeholder="length" class="values" id="length">
+    <input type="text" placeholder="width" class="values" id="width">
+
+    <button  id = "calculate" class="values" onclick="formulaCaller()">Calculate</button>
+    <p id = "result"></p>
+
+
+
+
+
+
+    <div class="select-shape" id="select-shape">
+        <p style="display: inline;">Select Your Shape:</p>
+        <select name="select-shape" id="dropdown">
+            <option>Select shape</option>
+            <option>Cone</option>
+            <option>Cube</option>
+            <option>Cuboid</option>
+            <option>Sphere</option>
+            <option>Cylinder</option>
+        </select>
+
+        <br>
+        <br>
+      
+
+        <button class="tabs tab1" id="tab1" onclick="changer2()">Volume</button>
+        <button class="tabs tab2" id="tab2" onclick="changer()">Surface Area</button>
+        <p>I want my results in <select id="acc">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select> decimals</p>
+        <button id="changeScreen" onclick="changeScreen()">Go!</button>
+        <br>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

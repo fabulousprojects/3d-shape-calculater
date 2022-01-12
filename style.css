@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs {
+  width: 10.84%;
+  height: 3em;
+  margin: 1em;
+  background-color: #e6e6e6;
+  border: none;
+  display: inline;
+  border-radius: 40%;
+}
+
+nav {
+  background-color: #e6e6e6;
+}
+
+.tabs:hover {
+  cursor: pointer;
+  background-color: #d3d1d1;
+}
+
+.tab1 {
+  background: #c5c5c5;
+}
+
+.select-shape {
+  display: block;
+  padding-top: 20%;
+  padding-left: 40%;
+}
+
+#changeScreen {
+  display: block;
+  width: 10%;
+  height: 3em;
+  margin-top: 2em;
+}
+
+#calculate:hover {
+  cursor: pointer;
+}
+
+.values {
+  display: none;
+  margin: 1em;
+}
+
+.i1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: xx-large;
+}
+
+.i2 {
+  position: absolute;
+  right: 1em;
+  top: 0em;
+  font-size: xx-large;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
